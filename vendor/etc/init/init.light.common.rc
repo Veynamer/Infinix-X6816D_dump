@@ -1,0 +1,8 @@
+on boot
+	wait /sys/class/leds/sc27xx:transsion/brightness
+
+	chmod 664 /sys/class/leds/sc27xx:transsion/brightness
+	chmod 664 /sys/class/leds/sc27xx:transsion/trigger
+
+	chown root system /sys/class/leds/sc27xx:transsion/brightness
+	chown root system /sys/class/leds/sc27xx:transsion/trigger

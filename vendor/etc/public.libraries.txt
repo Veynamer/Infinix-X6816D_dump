@@ -1,0 +1,6 @@
+# vendor public libraries
+libjpeg_hw_sprd.so
+libinterface.so
+libverify.so
+libkey.so
+libinfo.so

@@ -1,0 +1,27 @@
+on boot
+    chmod 660 /dev/focaltech_fp
+    chown system system /dev/focaltech_fp
+	
+on post-fs-data
+    chmod 0660 /dev/focaltech_fp
+    chmod 0660 /dev/spidev0.0
+    chown system system /dev/focaltech_fp
+    chown system system /dev/spidev0.0 
+
+    mkdir /data/vendor/focaltech 0760 system system
+    restorecon /data/vendor/focaltech
+
+service vendor.focaltech.fps_hal /vendor/bin/hw/vendor.focaltech.fingerprint@1.0-service
+    class hal
+    user system
+    group system
+
+on post-fs
+    insmod ${ro.vendor.ko.mount.point}/odmko/focaltech_fp.ko
+
+on factorytest-fs
+    insmod ${ro.vendor.ko.mount.point}/odmko/focaltech_fp.ko
+
+on fs
+    chown system system /dev/focaltech_fp
+    chmod 0666 /dev/focaltech_fp
