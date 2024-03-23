@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * SHENZHEN TRANSSION COMMUNICATION LIMITED TOP SECRET.
+ * Copyright (c) 2016-2036  SHENZHEN TRANSSION COMMUNICATION LIMITED
+ *
+ * PROPRIETARY RIGHTS of Shenzhen Transsion Communication Limited are involved in the
+ * subject matter of this material.  All manufacturing, reproduction, use,
+ * and sales rights pertaining to this subject matter are governed by the
+ * license agreement.  The recipient of this software implicitly accepts
+ * the terms of the license.
+ *
+ * Description:
+ * Author:
+ * Version:v1.0
+ * Date:
+ * Modification:
+ *
+ */
+-->
+
+<Hardware>
+    <!-- 1 Backlight-->
+    <Pointer usage="true">
+        <activity>LightTestActivity</activity>
+    </Pointer>
+
+    <!-- 2 Color -->
+    <Pointer usage="true">
+        <activity>ColorTestActivity</activity>
+    </Pointer>
+
+    <!-- 3 keys -->
+    <Pointer usage="true">
+        <activity>KeyTestActivity</activity>
+    </Pointer>
+
+    <!-- 4 Mike -->
+    <Pointer usage="true">
+        <activity>MikeTestActivity</activity>
+    </Pointer>
+
+    <!-- 5 Speaker -->
+    <Pointer usage="true">
+        <activity>SpeakerTestActivity</activity>
+    </Pointer>
+
+    <!-- 6 Recevier -->
+    <Pointer usage="true">
+        <activity>ReceiverTestActivity</activity>
+    </Pointer>
+
+    <!-- 7 BgCamera -->
+    <Pointer usage="true">
+        <activity>BackcameraTestActivity</activity>
+    </Pointer>
+
+    <!-- 8 MaCamera -->
+    <Pointer usage="true">
+        <activity>FrontcameraTestActivity</activity>
+    </Pointer>
+
+    <!-- 9 motor -->
+    <Pointer usage="true">
+        <activity>MotorTestActivity</activity>
+    </Pointer>
+
+    <!-- 10 Touch screen -->
+    <Pointer usage="true">
+        <activity>TouchTestActivity</activity>
+    </Pointer>
+
+    <!-- 11 Two points -->
+    <Pointer usage="true">
+        <activity>TwopointerTestActivity</activity>
+    </Pointer>
+
+    <!-- 12 PSensor Calibartion Test -->
+    <Pointer usage="true">
+        <activity>PSensorCalibartionTestActivity</activity>
+    </Pointer>	
+	
+    <!-- 13 LSensor Calibartion Test -->
+    <Pointer usage="true">
+        <activity>LSensorCalibartionTestActivity</activity>
+    </Pointer>
+	
+	<!-- 14 Acceleration Calibartion Test -->
+    <Pointer usage="true">
+        <activity>AccelerationCalibartionTestActivity</activity>
+    </Pointer>
+	
+	<!-- 15 Accelerate Test -->
+    <Pointer usage="true">
+        <activity>AccelerateTestActivity</activity>
+    </Pointer>
+
+    <!-- 16 Distance -->
+    <Pointer usage="true">
+        <activity>DistanceTestActivity</activity>
+    </Pointer>
+
+    <!-- 17 LightSensor-->
+    <Pointer usage="true">
+        <activity>LightSensorTestActivity</activity>
+    </Pointer>
+
+    <!-- 18 Charging -->
+    <Pointer usage="true">
+        <activity>ChargingTestActivity</activity>
+    </Pointer>
+
+    <!-- 19 Headset -->
+    <Pointer usage="true">
+        <activity>EarphoneTestActivity</activity>
+    </Pointer>
+
+    <!-- 20 FM -->
+    <Pointer usage="true">
+        <activity>FmMainActivity</activity>
+    </Pointer>
+
+    <!-- 21 Bluetooth -->
+    <Pointer usage="true">
+        <activity>BluetoothTestActivity</activity>
+    </Pointer>
+
+    <!-- 22 WIFI -->
+    <Pointer usage="true">
+        <activity>WifiTestActivity</activity>
+    </Pointer>
+
+    <!-- 23 SD card -->
+    <Pointer usage="true">
+        <activity>SdcardTestActivity</activity>
+    </Pointer>
+
+    <!-- 24 Torch -->
+    <Pointer usage="true">
+        <activity>TorchTestActivity</activity>
+    </Pointer>
+
+    <!-- 25 QR Code -->
+    <Pointer usage="false">
+        <activity>CaptureActivity</activity>
+    </Pointer>
+
+    <!-- 26 Gamma Color Auxiliary test items-->
+    <Pointer usage="false">
+        <activity>GammaTestActivity</activity>
+    </Pointer>
+
+    <!-- 27 otg-->
+    <Pointer usage="true">
+        <activity>OtgTestActivity</activity>
+    </Pointer>
+
+    <!-- 28 SIM卡 -->
+    <Pointer usage="true">
+        <activity>SimTestActivity</activity>
+    </Pointer>
+		
+    <!-- 29 GPS -->
+    <Pointer usage="true">
+        <activity>GpsTestActivity</activity>
+    </Pointer>
+
+    <!-- 30 usb-->
+    <Pointer usage="false">
+        <activity>UsbTestActivity</activity>
+    </Pointer>
+
+    <!-- 31 SIGNAL-->
+    <Pointer usage="false">
+        <activity>SignalTestActivity</activity>
+    </Pointer>
+
+    <!-- 32 TpAutoTest-->
+    <Pointer usage="false">
+        <activity>TpAutoTestActivity</activity>
+    </Pointer>
+
+    <!-- 33 ProximitySensor Auxiliary test items -->
+    <Pointer usage="false">
+        <activity>ProximitySensorActivity</activity>
+    </Pointer>
+
+    <!-- 34 FingerPrint -->
+    <Pointer usage="true">
+        <activity>SunWaveFingerprintActivity</activity>
+    </Pointer>
+
+    <!-- 35 Indicator Light-->
+    <Pointer usage="false">
+        <activity>IndicatorLightActivity</activity>
+    </Pointer>
+
+    <!-- 36 Hall-->
+    <Pointer usage="false">
+        <activity>HallTestActivity</activity>
+    </Pointer>
+
+    <!-- 37 GMS Check -->
+    <Pointer usage="false"><!--redmine 130604 remove gms test wuliangchen 2022-3-15-->
+        <activity>ProductCheckActivity</activity>
+    </Pointer>
+    <!--redmine 104506  wuliangchen Midtest  add Compass 2021-12-15 begin-->
+    <!-- 38 Recevier -->
+    <Pointer usage="true">
+        <activity>CompassTestActivity</activity>
+    </Pointer>
+    <!--redmine 104506  wuliangchen Midtest  add Compass 2021-12-15 begin-->
+    <!--jira XLBYLDT-50  Midtest add nfc test wuliangchen 2022-1-22 begin-->
+    <!--39 nfc-->
+    <Pointer usage="true">
+        <activity>NfcTestActivity</activity>
+    </Pointer>
+    <!--jira XLBYLDT-50  Midtest add nfc test wuliangchen 2022-1-22 end-->
+</Hardware>
