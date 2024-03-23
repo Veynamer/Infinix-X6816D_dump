@@ -1,0 +1,12 @@
+product/app/Messages/Messages.apk filter=lfs diff=lfs merge=lfs -text
+product/priv-app/Velvet/Velvet.apk filter=lfs diff=lfs merge=lfs -text
+product/priv-app/GmsCore/GmsCore.apk filter=lfs diff=lfs merge=lfs -text
+system_ext/app/FaceID/FaceID.apk filter=lfs diff=lfs merge=lfs -text
+system_ext/app/AiGallery/AiGallery.apk filter=lfs diff=lfs merge=lfs -text
+system_ext/app/TranssionCamera/TranssionCamera.apk filter=lfs diff=lfs merge=lfs -text
+system_ext/priv-app/InfinixSettings/InfinixSettings.apk filter=lfs diff=lfs merge=lfs -text
+system/system/preloadapp/WPS/WPS.apk filter=lfs diff=lfs merge=lfs -text
+system/system/preloadapp/Vskit/Vskit.apk filter=lfs diff=lfs merge=lfs -text
+system/system/preloadapp/TikTokMusically/TikTokMusically.apk filter=lfs diff=lfs merge=lfs -text
+system/system/preloadapp/TikTok/TikTok.apk filter=lfs diff=lfs merge=lfs -text
+system/system/apex/com.android.vndk.current.apex filter=lfs diff=lfs merge=lfs -text
