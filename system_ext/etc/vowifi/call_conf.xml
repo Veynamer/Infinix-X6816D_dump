@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AccountSettings>
+
+    <operator spn="Megafon RUS" mcc="250" mnc="{002}" uriFormatType="tel" withLocation="true" retryCodeList="500"/>
+    <!-- SR:Vowifi doesn't exist on Tele2 XLBYLDT-425 by li.lei 20220919 start -->
+    <operator spn="Tele2 RU" mcc="250" mnc="{020}" uriFormatType="tel" withLocation="true" />
+    <!-- SR:Vowifi doesn't exist on Tele2 XLBYLDT-425 by li.lei 20220919 end -->
+    <operator spn="Beeline RU" mcc="250" mnc="{099}" retryCodeList="500,503,504" />
+
+</AccountSettings>

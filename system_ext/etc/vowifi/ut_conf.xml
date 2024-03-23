@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AccountSettings>
+    <operator spn="Etisalat AE" mcc="424" mnc="{002}" utSupport="false" bsfServerPort="8088" />
+	<!--XLBYLCT-936  Delay when adjusting call barring settings Under Vowifi 20223029 start-->
+	<operator spn="Mobily SA" mcc="420" mnc="{003}" utSupport="false" xcapServerPort="80" bsfPrefix="bsf" bsfServerPort="443" />
+	<!--XLBYLCT-936  Delay when adjusting call barring settings Under Vowifi 20223029 end-->
+    <!-- SR:Vowifi doesn't exist on Tele2 XLBYLDT-425 by li.lei 20220919 start -->
+    <operator spn="Tele2 RU" mcc="250" mnc="{020}" utSupport="true" bsfPrefix="bsf" xcapServerPort="443" />
+    <!-- SR:Vowifi doesn't exist on Tele2 XLBYLDT-425 by li.lei 20220919 end -->
+</AccountSettings>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AccountSettings>
+    <operator spn="Tele2 RU" mcc="250" mnc="{020}" ringbackTimer="90" withLocation="true"
+        preconditionEnabled="true" />
+    <operator spn="Beeline RU" mcc="250" mnc="{099}" preconditionEnabled="true" ringbackTimer="90"
+        withCNI="true" withCountryInPANI="true" withAccessType="true" userAgent="@prop#ro.product.device#@_@prop#ro.build.display.id#@"/>
+</AccountSettings>

@@ -1,0 +1,20 @@
+## X6816D-ST683JKR-R-OP-230411V10
+- Manufacturer: infinix mobility limited
+- Platform: ums512
+- Codename: Infinix-X6816D
+- Brand: Infinix
+- Flavor: X6816D-user
+- Release Version: 11
+- Kernel Version: 4.14.193
+- Id: RP1A.201005.001
+- Incremental: 230411V10
+- Tags: release-keys
+- CPU Abilist: arm64-v8a,armeabi-v7a,armeabi
+- A/B Device: true
+- Treble Device: true
+- Locale: en-US
+- Screen Density: undefined
+- Fingerprint: Infinix/X6816D-OP/Infinix-X6816D:11/RP1A.201005.001/230411V10:user/release-keys
+- OTA version: 
+- Branch: X6816D-ST683JKR-R-OP-230411V10
+- Repo: infinix/Infinix-X6816D

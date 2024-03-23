@@ -1,0 +1,10 @@
+net.bt.name=Android
+persist.sys.sr.market_name=OP
+persist.sys.timezone=Africa/Brazzaville
+persist.sys.tran.device.name=Infinix HOT 12 Play NFC
+persist.vendor.cam.brand=Itel
+persist.vendor.dualapp.support=
+ro.os.appsflyer.preinstall.path=/product/etc/transsion_prebuilt/pre_install.appsflyer
+ro.prebuilt.path=
+ro.wifi.channels=
+transsion.device.name=Infinix HOT 12 Play NFC

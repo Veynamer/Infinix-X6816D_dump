@@ -1,0 +1,5 @@
+persist.sys.sr.market_name=OP
+persist.sys.tran.device.name=Infinix HOT 12 Play NFC
+ro.os.appsflyer.preinstall.path=/product/etc/transsion_prebuilt/pre_install.appsflyer
+ro.prebuilt.path=/product/etc/transsion_prebuilt/
+transsion.device.name=Infinix HOT 12 Play NFC

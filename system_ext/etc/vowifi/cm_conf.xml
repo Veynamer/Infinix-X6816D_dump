@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AccountSettings>
+    <operator spn="orange" mcc="231" mnc="{001,005}"
+        wifiIdleRssiLow                 = "-75"
+        wifiIdleRssiHigh                = "-65"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-65"
+    />
+</AccountSettings>

@@ -1,0 +1,14 @@
+#add for factorytest mode
+on property:ro.bootmode=factorytest
+    start apexd
+
+on property:ro.bootmode=factorytest && property:apexd.status=activated
+    perform_apex_config
+    setprop persist.vendor.adbd.ready true
+
+#add for factorytest mode
+on factorytest-fs
+    restorecon_recursive /metadata
+    mkdir /metadata/apex 0700 root system
+    mkdir /metadata/apex/sessions 0700 root system
+    restorecon_recursive /metadata/apex
