@@ -1,0 +1,9 @@
+on post-fs-data
+    mkdir /data/vendor 0777 nfc nfc
+    mkdir /data/vendor/nfc 0777 nfc nfc
+    mkdir /data/vendor/nfc/param 0777 nfc nfc
+    mkdir /mnt/vendor/productinfo/nfc 0770 system nfc
+    chmod 0660 /dev/pn553
+    chown nfc nfc /dev/pn553
+    chown system nfc /mnt/vendor/productinfo/nfc/slm_data_info.bin
+    chmod 0660 /mnt/vendor/productinfo/nfc/slm_data_info.bin
