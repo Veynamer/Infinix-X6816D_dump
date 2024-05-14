@@ -1,0 +1,9 @@
+system/system/preloadapp/Welife/Welife.apk filter=lfs diff=lfs merge=lfs -text
+product/app/WebViewGoogle/WebViewGoogle.apk filter=lfs diff=lfs merge=lfs -text
+product/priv-app/GmsCore/GmsCore.apk filter=lfs diff=lfs merge=lfs -text
+product/priv-app/Velvet/Velvet.apk filter=lfs diff=lfs merge=lfs -text
+product/priv-app/Messages/Messages.apk filter=lfs diff=lfs merge=lfs -text
+system_ext/app/AiGallery/AiGallery.apk filter=lfs diff=lfs merge=lfs -text
+system_ext/app/TranssionCamera/TranssionCamera.apk filter=lfs diff=lfs merge=lfs -text
+system_ext/app/Facemoji/Facemoji.apk filter=lfs diff=lfs merge=lfs -text
+system_ext/priv-app/TranSettings/TranSettings.apk filter=lfs diff=lfs merge=lfs -text
