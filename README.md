@@ -1,0 +1,20 @@
+## X6816D-user 12 SP1A.210812.016 235 release-keys
+- Manufacturer: infinix mobility limited
+- Platform: ums512
+- Codename: Infinix-X6816D
+- Brand: Infinix
+- Flavor: X6816D-user
+- Release Version: 12
+- Kernel Version: 5.4.233
+- Id: SP1A.210812.016
+- Incremental: 240407V163
+- Tags: release-keys
+- CPU Abilist: arm64-v8a,armeabi-v7a,armeabi
+- A/B Device: true
+- Treble Device: true
+- Locale: ru-RU
+- Screen Density: undefined
+- Fingerprint: Infinix/X6816D-RU/Infinix-X6816D:12/SP1A.210812.016/240407V163:user/release-keys
+- OTA version: 
+- Branch: X6816D-user-12-SP1A.210812.016-235-release-keys
+- Repo: infinix/Infinix-X6816D
